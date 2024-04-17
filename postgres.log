@@ -1,0 +1,116 @@
+[90m<nil>[0m [31mERR[0m [1mwarning: Git tree '/home/cor/dev/process-compose-bug' is dirty[0m
+[90m<nil>[0m [31mERR[0m [1mContainer process-compose-bug-postgres-1  Recreate[0m
+[90m<nil>[0m [31mERR[0m [1mpostgres The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested [0m
+[90m<nil>[0m [31mERR[0m [1mContainer process-compose-bug-postgres-1  Recreated[0m
+[90m<nil>[0m [32mINF[0m [1mAttaching to process-compose-bug-postgres-1[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | The files belonging to this database system will be owned by user "postgres".[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | This user must also own the server process.[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | The database cluster will be initialized with locale "en_US.utf8".[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | The default database encoding has accordingly been set to "UTF8".[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | The default text search configuration will be set to "english".[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | Data page checksums are disabled.[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | fixing permissions on existing directory /var/lib/postgresql/data ... ok[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | creating subdirectories ... ok[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | selecting dynamic shared memory implementation ... posix[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | selecting default max_connections ... 100[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | selecting default shared_buffers ... 128MB[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | selecting default time zone ... UTC[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | creating configuration files ... ok[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | running bootstrap script ... ok[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | performing post-bootstrap initialization ... sh: locale: not found[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:42.599 UTC [30] WARNING:  no usable system locales were found[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | ok[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | syncing data to disk ... ok[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | initdb: warning: enabling "trust" authentication for local connections[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | Success. You can now start the database server using:[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  |     pg_ctl -D /var/lib/postgresql/data -l logfile start[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | waiting for server to start....2024-04-17 18:42:43.113 UTC [36] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-musl, compiled by gcc (Alpine 12.2.1_git20220924-r10) 12.2.1 20220924, 64-bit[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:43.114 UTC [36] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:43.119 UTC [39] LOG:  database system was shut down at 2024-04-17 18:42:42 UTC[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:43.127 UTC [36] LOG:  database system is ready to accept connections[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:43.131 UTC [42] LOG:  TimescaleDB background worker launcher connected to shared catalogs[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  |  done[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | server started[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | CREATE DATABASE[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | /usr/local/bin/docker-entrypoint.sh: sourcing /docker-entrypoint-initdb.d/000_install_timescaledb.sh[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | CREATE EXTENSION[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | CREATE EXTENSION[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:43.775 UTC [60] ERROR:  TimescaleDB background worker connected to template database, exiting[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:43.779 UTC [36] LOG:  background worker "TimescaleDB Background Worker Scheduler" (PID 60) exited with exit code 1[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | CREATE EXTENSION[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/001_timescaledb_tune.sh[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [37;1mUsing postgresql.conf at this path:[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0m/var/lib/postgresql/data/postgresql.conf[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [37;1mWriting backup to:[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0m/tmp/timescaledb_tune.backup202404171842[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [37;1mRecommendations based on 98.05 GB of available memory and 16 CPUs for PostgreSQL 16[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0mshared_buffers = 25100MB[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | effective_cache_size = 75300MB[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | maintenance_work_mem = 2047MB[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | work_mem = 16064kB[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | timescaledb.max_background_workers = 16[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | max_worker_processes = 35[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | max_parallel_workers_per_gather = 8[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | max_parallel_workers = 16[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | wal_buffers = 16MB[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | min_wal_size = 512MB[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | default_statistics_target = 100[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | random_page_cost = 1.1[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | checkpoint_completion_target = 0.9[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | max_locks_per_transaction = 512[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | autovacuum_max_workers = 10[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | autovacuum_naptime = 10[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | effective_io_concurrency = 256[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | timescaledb.last_tuned = '2024-04-17T18:42:44Z'[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | timescaledb.last_tuned_version = '0.15.0'[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [37;1mSaving changes to: /var/lib/postgresql/data/postgresql.conf[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0m[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | waiting for server to shut down....2024-04-17 18:42:44.030 UTC [36] LOG:  received fast shutdown request[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.030 UTC [36] LOG:  aborting any active transactions[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.031 UTC [63] FATAL:  terminating background worker "TimescaleDB Background Worker Scheduler" due to administrator command[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.031 UTC [42] FATAL:  terminating background worker "TimescaleDB Background Worker Launcher" due to administrator command[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.031 UTC [54] FATAL:  terminating background worker "TimescaleDB Background Worker Scheduler" due to administrator command[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.032 UTC [67] FATAL:  terminating background worker "Error Log Retention Policy [2]" due to administrator command[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.032 UTC [67] CONTEXT:  SQL statement "WITH deleted AS[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 	        (DELETE[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 	        FROM _timescaledb_internal.job_errors[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 	        WHERE finish_time < (now() - drop_after) RETURNING *)[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 	        SELECT count(*)[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 	        FROM deleted"[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 	PL/pgSQL function _timescaledb_functions.policy_job_error_retention(integer,jsonb) line 7 at SQL statement[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.034 UTC [36] LOG:  background worker "TimescaleDB Background Worker Launcher" (PID 42) exited with exit code 1[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.034 UTC [36] LOG:  background worker "logical replication launcher" (PID 43) exited with exit code 1[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.034 UTC [36] LOG:  background worker "TimescaleDB Background Worker Scheduler" (PID 54) exited with exit code 1[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.034 UTC [36] LOG:  background worker "TimescaleDB Background Worker Scheduler" (PID 63) exited with exit code 1[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.036 UTC [36] LOG:  background worker "Error Log Retention Policy [2]" (PID 67) exited with exit code 1[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.041 UTC [37] LOG:  shutting down[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.042 UTC [37] LOG:  checkpoint starting: shutdown immediate[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.153 UTC [37] LOG:  checkpoint complete: wrote 1713 buffers (1.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.030 s, sync=0.077 s, total=0.111 s; sync files=743, longest=0.001 s, average=0.001 s; distance=9621 kB, estimate=9621 kB; lsn=0/1E4F800, redo lsn=0/1E4F800[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.160 UTC [36] LOG:  database system is shut down[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  |  done[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | server stopped[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | PostgreSQL init process complete; ready for start up.[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | [0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.286 UTC [1] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-musl, compiled by gcc (Alpine 12.2.1_git20220924-r10) 12.2.1 20220924, 64-bit[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.287 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.287 UTC [1] LOG:  listening on IPv6 address "::", port 5432[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.289 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.293 UTC [77] LOG:  database system was shut down at 2024-04-17 18:42:44 UTC[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.313 UTC [1] LOG:  database system is ready to accept connections[0m
+[90m<nil>[0m [32mINF[0m [1mprocess-compose-bug-postgres-1  | 2024-04-17 18:42:44.317 UTC [80] LOG:  TimescaleDB background worker launcher connected to shared catalogs[0m
+[90m<nil>[0m [31mERR[0m [1mGracefully stopping... (press Ctrl+C again to force)[0m
+[90m<nil>[0m [31mERR[0m [1mAborting on container exit...[0m
