@@ -1,3 +1,7 @@
+## ARCHIVED
+
+This repo was meant to reproduce https://github.com/F1bonacc1/process-compose/issues/176, and is no longer relevant
+
 ## How to reproduce
 
 Use a Linux machine, (preferably NixOS)
